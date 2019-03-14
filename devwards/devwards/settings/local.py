@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.24.72']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
